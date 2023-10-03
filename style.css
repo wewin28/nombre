@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  
+  }
+  
+  li{font-size: 15px;
+  list-style:none;
+  margin-left: 10px;
+  margin-right: 5px;
+  }
+  
+  .menu{
+  justify-content: space-between;
+  display:flex;
+  }
+  menu p{
+  display:flex;
+  justify-content: flex-start;
+  font-size:15px solid black;
+  margin-top:10px; }
+  
+  .lista{ display: flex;
+    font-family: 'Manrope', sans-serif;
+  }
+
+  header{
+    border: 1px solid black;
+   ;
+  }
+
+  .comercial{
+    text-align:center;
+    font-size: 80px; 
+    margin-left: 90px;
+    margin-right:90px;
+        border: 1px solid black;
+        font-family: 'Manrope', sans-serif;
+   
+  }
+
+ head{
+  border:1px solid black;
+ }
+
+  .comercial2{
+
+    display:flex;
+    align-items: baseline;
+    margin-left:400px;
+    margin-right:80px;
+    font-size:130%;
+  }
+
+
+  .summer{
+    margin-bottom: -80px;
+  }
+  h3{
+    font-size:100px;
+    margin-right: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    flex-direction:column;
+  }
+
+  .imagen{
+    width: 400px;
+    height: 700px;
+    border:1px solid black;
+  }
+
+  .imagenes{
+    display: flex;
+    justify-content: space-evenly;
+     margin-right:100px;
+     margin-left: 100px;
+     animation-name:imagen;
+     animation-duration:5s;
+     animation-iteration-count: infinite;
+
+  }
+  @keyframes imagen{
+    25%{
+      width:380px;
+   
+    }
+50%{
+  width:780px;
+     
+      
+
+}
+75%{
+  width:1000px;
+   
+
+}
+100%{ 
+  width:1300px;
+     
+
+}
+
+  }
+
+  .siguiente{
+    justify-content:flex-end;
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+  }
+
+   .siguiente:hover{
+  color: aquamarine;
+  
+  }
+.shoes{
+display: flex;
+justify-content: center;
+
+}
+
+.img-s{
+  width:400px;
+  height: 250px;
+background-color: beige;
+margin-left: 48px;
+margin-right:48px ;
+border: 50%;
+display: flex;
+justify-content: space-evenly;
+
+}
+
+.img-s p{
+font-size: 35px;
+text-align: center;
+margin-right: 9px;
+}
+
+ 
+
+
+  
